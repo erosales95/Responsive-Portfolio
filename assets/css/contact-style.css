@@ -38,3 +38,46 @@ h3 {
 label {
     line-height: 2em;
 }
+
+@media screen and (max-width: 980px) {
+    .body-text {
+        width: 700px;
+    }
+    #name {
+        max-width: 100%;
+    }
+
+    #mail {
+        max-width: 100%;
+    }
+
+    #msg {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body-text {
+        width: 600px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .body-text {
+        width: 400px;
+        padding-bottom: 20px;
+        margin-top: -70px;
+    }
+
+    h1 {
+        float: none;
+        text-align: center;
+    }
+
+    h2 {
+        float: none;
+        text-align: center;
+    }
+}
+
