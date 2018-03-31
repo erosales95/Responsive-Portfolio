@@ -1,0 +1,49 @@
+#portfolio-body-text {
+    padding: 40px;
+    background: #ffffff;
+    margin: 0 auto;
+    width: 700px;
+    overflow: auto;
+    margin-top: -40px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 2em;
+    margin-bottom: 40px;
+    color: #4aaaa5;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #777777;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    margin-top: 40px;
+}
+
+.image {
+    float: left;
+    width: 200px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-text {
+    position: relative;
+    text-align: center;
+    margin-top: -58px;
+    background: #4aaaa5;
+    padding: 13px;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
